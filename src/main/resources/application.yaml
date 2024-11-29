@@ -1,0 +1,61 @@
+spring:
+  application:
+    name: NullFo0d
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/NuIlFo0d
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ciscoPacketTracer153@gmail.com
+    password: raqgcukqsxhtyhch
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+        default-encoding: UTF-8
+
+logging:
+  level:
+    org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+    org.springframework.web.client.RestTemplate: DEBUG
+    logging:
+      level:
+        org:
+          springframework:
+            security: DEBUG
+file:
+  upload:
+    avatar: upload
+
+token:
+  secret:  7715c639ce7c112d490874118a3add4f52ad383d7ba9165f46256dca37cba700e1eff9c47b1c023162e6d3e08062dcd38a6ba0dee1250146919b3a172ceb3027
+
+account:
+  admin: {
+      username: admin,
+      password: Admin123@,
+      email: adminShopNuIlFo0d@gmail.com
+  }
+
+
+
+
+
