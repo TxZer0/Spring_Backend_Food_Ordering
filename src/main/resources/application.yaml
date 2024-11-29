@@ -22,8 +22,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: ciscoPacketTracer153@gmail.com
-    password: raqgcukqsxhtyhch
+    username: your_email
+    password: your_app_password
     properties:
       mail:
         smtp:
