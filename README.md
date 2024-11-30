@@ -1,4 +1,4 @@
-# Food Ordering API  
+# Spring Backend Food Ordering  
 This is the source code for the API backend of a food ordering application. The project provides functionalities for managing menus, orders, and user authentication.
 
 ## Features
