@@ -3,16 +3,16 @@ This is the source code for the API backend of a food ordering application. The 
 
 ## Features
 
-- **User Authentication**: User registration, login, logout. 
-- **Menu Management**: Add, update, delete, and view menus.  
-- **Cart Management**: Add, update, delete items in cart. 
-- **Role Management**: Separate roles for customers and admins.  
+- User Authentication: User registration, login, logout. 
+- Menu Management: Add, update, delete, and view menus.  
+- Cart Management: Add, update, delete items in cart. 
+- Role Management: Separate roles for customers and admins.  
 
 ## Requirements
 
-- **Java**: 17  
-- **Maven**: 3.9+ 
-- **MySQL**: Running on default port (3306)  
+- Java: 17  
+- Maven: 3.9+ 
+- MySQL: Running on default port (3306)  
 
 ## Installation
 
