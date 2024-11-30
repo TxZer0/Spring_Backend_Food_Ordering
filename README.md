@@ -24,7 +24,7 @@ This is the source code for the API backend of a food ordering application. The 
 
 2. Update `application.yaml`:
     ```
-    spring.datasource.url=jdbc:mysql://localhost:3306/food_ordering
+    spring.datasource.url=jdbc:mysql://localhost:3306/NuIlFo0d
     spring.datasource.username=your_username
     spring.datasource.password=your_password
     ```
